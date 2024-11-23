@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lottery</h1>
+    <div id="name-grid"></div>
+    <div class="controls">
+      <label for="lottery-time">Set Timer:</label>
+      <input type="datetime-local" id="lottery-time">
+      <button id="start-lottery">Start Lottery</button>
+      <div id="countdown-timer">Remaining Time: --:--:--</div>
+    </div>
+    <div class="results">
+      <h2>Winner:</h2>
+      <p id="winner-name">-</p>
+      <h2>Past Winners</h2>
+      <ul id="past-winners"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
